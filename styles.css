@@ -2,7 +2,7 @@ header {
     background-color: #373838;
     color: #88BBD0;
     padding: lem;
-    font-family: Gotham Bold;
+    font-family: unica;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ li a:hover {
 footer {
     background-color: #373838;
     color: #88BBD0;
-    font-family: Gotham Book;
+    font-family: unica;
     padding: 0.7rem;
     text-align: center;
 }
