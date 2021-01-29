@@ -1,0 +1,38 @@
+header {
+    background-color: #111;
+    color: aliceblue;
+    padding: lem;
+    font-family: Broadway;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 0.7rem;
+    text-align: center;
+}
