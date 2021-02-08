@@ -2,7 +2,7 @@ header {
     background-color: #373838;
     color: #88BBD0;
     padding: lem;
-    font-family: unica;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
 }
 
@@ -30,10 +30,14 @@ li a:hover {
     background-color: #373838;
 }
 
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
 footer {
     background-color: #373838;
     color: #88BBD0;
-    font-family: unica;
     padding: 0.7rem;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
 }
