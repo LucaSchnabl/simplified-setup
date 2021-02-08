@@ -32,6 +32,10 @@ li a {
 li a:hover {
     background-color: #373838;
 }
+body {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
 
 footer {
     background-color: #373838;
