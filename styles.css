@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 header {
     background-color: #373838;
     color: #88BBD0;
@@ -28,10 +31,6 @@ li a {
 
 li a:hover {
     background-color: #373838;
-}
-
-body {
-    font-family: 'Comfortaa', cursive;
 }
 
 footer {
