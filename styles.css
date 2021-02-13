@@ -1,15 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+/*Wie bereits besprochen habe ich bei Typografie o.ä. nicht genug Varianten wo Tokens lohnen würden, ich lege jedoch für colors einen an, damit du siehst dass ich es nicht vergessen habe :)*/
+
+:root {
+    --color-blau: #88BBD0;
+    --color-grau: #909090;
+    --color-dunkelgrau: #373838;
+}
+
 header {
-    background-color: #373838;
-    color: #88BBD0;
+    background-color: var(--color-dunkelgrau);
+    color: var(--color-blau);
     padding: 1em;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
 h2  {
     margin: 0;
+}
+.logo  {
+    float: left;
 }
 h3  {
     font-size: 3em ;
@@ -28,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #909090;
+    background-color: var(--color-grau);
 }
 
 li {
@@ -44,7 +55,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #373838;
+    background-color: var(--color-dunkelgrau);
 }
 body {
     font-family: 'Comfortaa', cursive;
@@ -52,10 +63,18 @@ body {
     padding-block-start: 1em; 
     padding-block-end: 1em;
 }
-
+.navigation2 {
+    float: center;
+}
+.navigation3 {
+    float: center;
+}
+.navigation4 {
+    float: center;
+}
 footer {
-    background-color: #373838;
-    color: #88BBD0;
+    background-color: var(--color-dunkelgrau);
+    color: var(--color-blau);
     padding: 0.7rem;
     font-family: 'Comfortaa', cursive;
     text-align: center;
